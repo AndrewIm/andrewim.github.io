@@ -1,53 +1,53 @@
 <!DOCTYPE html>
 <html>
-<head>  
-<script type="text/javascript" src="script.js"></script>
-<link rel="stylesheet" type="text/css" href="style.css" />
-</head>  
-<body>
- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
-<div class="w3-container w3-center w3-animate-opacity">
-<div class="backimg">
-<div class="logo">
-  <img src="https://image4.owler.com/logo/opie-software_owler_20160229_161746_original.png" alt="Snow" ">
+  <head>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
 
-<div class="logo">
-<div class="container">
-<h1>
-10 Meter Timed Test
-<br>
-</h1>
+  <body>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
-<form action="PayslipServlet" method="get"> 
-  Patient Number<br>
-  <input type="text" name="number" id="number" >
-  <br>
-  First name<br>
-  <input type="text" name="first" id="first" >
-  <br>
-  Last name<br>
-  <input type="text" name="last" id="last" >
-  <br>
-  Date<br>
-  <input type="date" name="date" id="date" >
-  <br>
-  Time (seconds)<br>
-  <input type="text" name="time" id="time" >
-  <br>
-  Comments<br>
-  <input type="text" name="comment" id="comment" >
-  <br>
-  
-  <br>
-  <button class="button" type="button" value="submit" onClick="printout()"><span>Convert </span></button>
-  <br>
-  <span id="print"></span>
-</form>
-</div></div>
-</div>
+    <div class="w3-container w3-center w3-animate-opacity">
+      <div class="backimg">
+        <div class="logo">
+          <img src="https://image4.owler.com/logo/opie-software_owler_20160229_161746_original.png" alt="Snow">
+          <div class="logo">
+            <div class="container">
+              <h1>
+                10 Meter Timed Test
+                <br>
+              </h1>
+              <form action="PayslipServlet" method="get">
+                Patient Number<br>
+                <input type="text" name="number" id="number">
+                <br> First name<br>
+                <input type="text" name="first" id="first">
+                <br> Last name<br>
+                <input type="text" name="last" id="last">
+                <br> Date
+                <br>
+                <input type="date" name="date" id="date">
+                <br> Time (seconds)<br>
+                <input type="text" name="time" id="time">
+                <br> Comments
+                <br>
+                <input type="text" name="comment" id="comment">
+                <br>
 
+                <br>
+                <button class="button" type="button" value="submit" onClick="printout()"><span>Convert </span></button>
+                <br>
+                <span id="print"></span>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-</body>
+  </body>
+
 </html>
