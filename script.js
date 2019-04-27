@@ -1,5 +1,3 @@
-
-<script>
 function printout() {
   
   document.getElementById("print").innerHTML = "CSV Format: "+
@@ -9,4 +7,4 @@ function printout() {
       document.getElementById('date').value + "," +
        document.getElementById('time').value;
           }
-</script>
+
