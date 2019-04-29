@@ -1,3 +1,5 @@
+ /* setting up for the animations at the start of the website for the logos and the fields
+    set up the background and the opie logo*/
 body,
 html,
 button .backimg {
@@ -31,11 +33,14 @@ button .backimg {
   from {
     top: 100px;
   }
+
   to {
     top: 0px;
   }
 }
 
+ /* setting up the text and fields to be the correct size when changing browser size as well as setting font and size
+ setup colors for all the inputs texts*/
 .container {
   position: relative;
   text-align: center;
@@ -44,6 +49,12 @@ button .backimg {
 
 h1 {
   font-size: 30px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 20px;
   font-family: Open Sans, sans-serif;
   font-weight: 100;
 }
@@ -66,6 +77,7 @@ input {
 
 .button {
   min-width: 180px;
+  max-width: 250px;
   width: 20%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -80,8 +92,10 @@ input {
   transition: all 0.5s;
   cursor: pointer;
 }
-
+ /* animations for the buttons when a cursor hovers over the button */
 .button span {
+  font-family: Open Sans, sans-serif;
+  font-weight: 100;
   cursor: pointer;
   display: inline-block;
   position: relative;
@@ -89,6 +103,8 @@ input {
 }
 
 .button span::after {
+  font-family: Open Sans, sans-serif;
+  font-weight: 100;
   content: '\00bb';
   position: absolute;
   opacity: 0;
