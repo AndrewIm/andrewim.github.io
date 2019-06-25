@@ -4,8 +4,7 @@ body,
 html,
 button .backimg {
   background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
-  background-repeat: no-repeat;
-  height: 100%;
+  background-size: 100% auto;
 }
 
 .logo {
