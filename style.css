@@ -5,6 +5,7 @@ html,
 button .backimg {
   background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
   background-size: 100% auto;
+  background-attachment: fixed;
 }
 
 .logo {
